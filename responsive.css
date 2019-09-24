@@ -1,0 +1,60 @@
+
+*{
+
+}
+header, main{
+    background-color: white;
+}
+main{
+    overflow: auto;
+}
+.menu{
+    text-align: center;
+}
+aside footer{
+    background-color: black
+}
+aside h3{
+    color:#ff8000;
+    border-bottom: 1 px solid #ff8000;
+    padding: 10px;
+}
+
+aside a {
+    color: white;
+    text-decoration :none;
+    
+}
+aside li{
+    border-bottom: 1 px solid gray;
+    padding: 10px;
+}
+
+aside ul {
+    padding :0;
+    list-style: none;
+
+}
+aside p{
+    padding :10 px;
+color:white;
+
+margin:0;
+
+}
+footer{
+    text-align: center;
+    color:white;
+    
+    padding:10px;
+}
+@media (min-width:450px){
+    article{
+        width: 70%;
+        float: left;
+    }
+    aside{
+        width: 30%;
+        float: right;
+    }
+}
